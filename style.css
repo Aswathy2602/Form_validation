@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+  }
+  
+  .form-box {
+    width: 100%;
+    max-width: 550px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  .form-box h2 {
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  .form-control {
+    height: 50px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.3);
+  }
+  
+  .btn-primary {
+    background-color: #3498db;
+    border: none;
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+  }
+  
+  .text-danger {
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+  
+  #successMessage {
+    font-size: 1.1rem;
+  }
+  
